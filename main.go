@@ -7,6 +7,8 @@ import (
 	"time"
 )
 
+port := os.Getenv("PORT")
+
 func main() {
 	m := http.NewServeMux()
 
